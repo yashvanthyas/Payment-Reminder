@@ -1,0 +1,139 @@
+.app-container {
+  padding: 2rem;
+  max-width: 640px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #f0f4f8);
+  min-height: 100vh;
+  transition: background 0.4s ease-in-out;
+  background-image: url(./assets/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.form-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  outline: none;
+}
+
+.add-button,
+.edit-button,
+.delete-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.add-button {
+  background-color: #3b82f6;
+  color: white;
+  margin-top: 1rem;
+}
+
+.add-button:hover {
+  background-color: #2563eb;
+  transform: scale(1.03);
+}
+
+.edit-button {
+  background-color: #38bdf8;
+  color: white;
+  margin-right: 8px;
+}
+
+.edit-button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.03);
+}
+
+.delete-button {
+  background-color: #ef4444;
+  color: white;
+  margin-top: 8px;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+  transform: scale(1.03);
+}
+
+.reminder-list {
+  margin-top: 2rem;
+}
+
+.reminder-card {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  border-left: 5px solid #3b82f6;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.reminder-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.reminder-card strong {
+  font-size: 1.2rem;
+  color: #1e293b;
+  transition: color 0.2s ease;
+}
+
+.reminder-card span {
+  display: block;
+  margin-top: 0.4rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.reminder-card small {
+  color: #64748b;
+}
